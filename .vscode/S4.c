@@ -110,7 +110,6 @@ int buscarProducto(char nombres[][LARGO_NOMBRE], int cantidad, char buscado[]) {
     return -1;
 }
 
-/* ---------- Mostrar inventario ---------- */
 void mostrarInventario(char nombres[][LARGO_NOMBRE], float precios[], int cantidad) {
     int i;
     printf("\n%-4s %-30s %10s\n", "N°", "PRODUCTO", "PRECIO");
